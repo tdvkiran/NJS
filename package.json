@@ -1,0 +1,25 @@
+{
+  "name": "njs",
+  "version": "1.0.0",
+  "description": "practice React with Akshay saini",
+  "author": "Kiran Tadisetti",
+  "license": "ISC",
+  "source": "src/App.js",
+  "main": "dist/App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "2.8.2",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

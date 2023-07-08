@@ -1,0 +1,8 @@
+#public folder
+dist
+#parcel related cache folders
+.parcel-cache
+
+node_modules
+
+yarn.lock
