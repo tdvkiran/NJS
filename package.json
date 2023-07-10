@@ -5,12 +5,11 @@
   "author": "Kiran Tadisetti",
   "license": "ISC",
   "source": "src/App.js",
-  "main": "dist/App.js",
   "homepage": "dist/index.html",
   "scripts": {
     "test": "jest",
     "start": "parcel src/index.html",
-    "build": "parcel build"
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "react": "^18.2.0",
